@@ -8,6 +8,13 @@ class Node {
         Node* prev;
 };
 
+void PrintList(Node* n) {
+    while(n != NULL) {
+        cout << n -> data << " ";
+        n = n -> next; // backward traversal
+    }
+}
+
 int main() {
     Node* head = NULL;
     Node* second = NULL;
@@ -28,4 +35,6 @@ int main() {
     third -> data = 3;
     third -> next = NULL;
     third -> prev = second;
+
+    PrintList(head);
 }
