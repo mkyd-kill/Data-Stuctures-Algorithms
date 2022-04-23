@@ -84,7 +84,7 @@ int main()
 		else(option == 2);
 		{
 			cout<<"System exiting...\n";
-			cout<<"System exited!"<<"\n";
+			cout<<"System exited!"<< endl;
 			exit(1); // closes the active editor and exits it
 		}
 	}

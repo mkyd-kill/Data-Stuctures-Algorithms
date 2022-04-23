@@ -11,7 +11,7 @@ class LinkedList:
     def printList(self): # linked list traversal
         """ Printing all contents inside the linked lists """
         while self.head:
-            print(self.head.data)
+            print(self.head.data, end=" ")
             self.head = self.head.next
 
 
