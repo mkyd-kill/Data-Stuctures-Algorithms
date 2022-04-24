@@ -25,12 +25,14 @@ class Circular:
         self.head = node
 
     def printNodes(self):
-        while self.head:
-            print(self.head.data, end=" ")
-            self.head = self.head.next
+        temp = self.head
+        if self.head is not None:
+            while True:
+                print(temp.data, end=" ")
+                temp = temp.next
 
-            if self.head.next == self.head:
-                break
+                if temp == self.head:
+                    break
 
 if __name__ == "__main__":
     circular = Circular()
@@ -40,5 +42,5 @@ if __name__ == "__main__":
     circular.insert(0)
 
     
-    print("Contents of circular linked list: \n")
+    print("Contents of circular linked list: ")
     circular.printNodes()
