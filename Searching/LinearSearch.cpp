@@ -17,7 +17,7 @@ int LinearSearch(int Arr[], int number, int data) {
 }
 
 // driver code
-int main(void) {
+int main() {
     int arr[] = { 2, 3, 4, 10, 40 };
     int data = 10;
     int number = sizeof(arr) / sizeof(arr[0]);

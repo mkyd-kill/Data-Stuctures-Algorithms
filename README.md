@@ -1,6 +1,6 @@
 ![alt text](https://i.ytimg.com/vi/tJizCA9z48U/maxresdefault.jpg)  
 # Data-Stuctures-Algorithms
-Data Structures and Algorithms in both C++  
+Data Structures and Algorithms in C++  
 
 ## Algorithms to be tackled
 Arrays  
