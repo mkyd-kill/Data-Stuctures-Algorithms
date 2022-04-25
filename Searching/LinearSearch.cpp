@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Time Complexity for a Linear Search Algorithm is O(n)
+
 /**
  * @param Arr The array containing the elements
  * @param number Number of elements in the array
